@@ -86,7 +86,8 @@ while (True):
 
         # Processes the data to create and display a custom message
         print("-" * 50)
-        print(f"The most recent registered student is {student_first_name} {student_last_name} going for {course_name}.")
+        print(f"The most recent registered student is {student_first_name} "
+              f"{student_last_name} going for {course_name}.")
         for row in students:
             print(f'Student {row["FirstName"]} '
                   f'{row["LastName"]} is enrolled in {row["Course"]}')
